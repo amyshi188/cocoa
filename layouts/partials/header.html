@@ -11,9 +11,9 @@
             <a href="/"><div class="name">{{ .Site.Params.Author }}</div></a>
             <nav>
                 <ul>
-                    <a href="/blog/"><li>Blog</li></a>
+                    <a href="/post/"><li>Blog</li></a>
                     <a href="/about/"><li>About</li></a>
-                    <a href="/code/"><li>Code</li></a>
+                    <a href="/experience/"><li>Experience</li></a>
                 </ul>
             </nav>
         </div>
@@ -48,9 +48,9 @@
             </a>
         {{ end }}
 
-        {{ if .Site.Params.SoundCloud }}
-            <a href="{{ .Site.Params.SoundCloud }}" target="_blank">
-                <i class="icon ion-ios-musical-notes larger"></i>
+        {{ if .Site.Params.Instagram }}
+            <a href="{{ .Site.Params.Instagram }}" target="_blank">
+                <i class="icon ion-social-instagram"></i>
             </a>
         {{ end }}
 
